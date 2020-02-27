@@ -416,6 +416,46 @@ img.staff {
     .section1 img {
         display: none;
     }
+
+    .servicesSection2 div h2 {
+        font-size: 2vw;
+    }
+    
+    .servicesSection2 div p {
+        font-size: 1.75vw;
+        line-height: 1.5;
+    }
+    
+    .servicesSection2 div div {
+        font-size: 1.75vw;
+        line-height: 2.7;
+    }
+
+    .servicesSection3 img {
+        display: none;
+    }
+
+    .servicesSection3 div {
+        width: 99%;
+        margin-left: 0%;
+    }
+    
+    .servicesSection3 div h3{
+        font-size: 2.5vw;
+    }
+    
+    .servicesSection3 div p{
+        font-size: 2.5vw;
+        text-align: justify;
+    }
+    
+    .servicesSection3 div ul{
+        font-size: 2.5vw;
+    }
+
+    .servicesFooter {
+        font-size: 2.5vw;
+    }
 }
 
 @media (max-width: 500px){
