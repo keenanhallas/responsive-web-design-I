@@ -147,7 +147,7 @@ header a img {
 	justify-content: space-between;
 }
 
-h2 {
+.section2 h2 {
 	font-size: 2vw;
 }
 
@@ -383,5 +383,100 @@ img.staff {
 	margin-top: 4%;
 	margin-left: 35%;
 	text-align: center;
+}
+
+@media (max-width: 800px){
+    header {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    nav {
+        width: 99%;
+    }
+    
+    nav a {
+        padding-top: 4%;
+    }
+
+    header a img {
+        margin-top: 4vw;
+        margin-left: 7vw;
+        padding-right: 4vw;
+        width: 24vw;
+        height: 4vw;
+    }
+
+    .section1 {
+        display: flex;
+        justify-content: center;
+        padding-top: 0%;
+    }
+
+    .section1 img {
+        display: none;
+    }
+}
+
+@media (max-width: 500px){
+    nav {
+        width: 90%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        width: 60%;
+        font-size: 3vw;
+        text-align: center;
+        padding: 3%;
+        border-bottom: 1px solid;
+    }
+
+    nav a:first-child {
+        border-top: 1px solid;
+        margin-top: 3%;
+    }
+
+    .section2 {
+        width: 50%;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        padding-top: 6%;
+    }
+
+    .divClass1 {
+        text-align: left;
+        width: 99%;
+        margin-bottom: 4%;
+    }
+
+    .section2 h2 {
+        margin-bottom: 4%;
+    }
+
+    .section2 p {
+        font-size: 1.75vw;
+        line-height: 1.2;
+    }
+    
+    .section2 img {
+        width: 98%;
+        padding: 2% 0%;
+    }
+
+    .divClass2 {
+        width: 99%;
+        margin-top: 3%;
+        margin-bottom: 2%;
+        padding-bottom: 6%;
+    }
+
+    footer {
+        margin: 0px auto;
+        width: 50%;
+        margin-top: 2%;
+    }
 }
 
