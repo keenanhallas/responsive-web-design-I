@@ -478,5 +478,94 @@ img.staff {
         width: 50%;
         margin-top: 2%;
     }
+
+    .servicesSection1 {
+        width: 91%;
+        margin: 4% auto;
+    }
+
+    .servicesSection1 img {
+        margin-bottom: 0%;
+        width: 75%;
+    }
+
+    .servicesSection1 div{
+        padding: 8%;
+    }
+
+    .servicesSection1 div h1{
+        margin-bottom: 3%;
+    }
+
+    .servicesSection1 div p {
+        font-size: 2vw;
+    }
+
+    .servicesSection2 {
+        flex-direction: column;
+        align-items: center;
+        width: 86%;
+        margin: 0px auto;
+    }
+
+    .servicesSection2 div {
+        width: 80%;
+        padding: 4%;
+        margin-top: 5%;
+    }
+
+    .servicesSection2 div h2 {
+        font-size: 2.5vw;
+        margin-bottom: 3%;
+        margin-top: 1%;
+    }
+    
+    .servicesSection2 div p {
+        font-size: 2vw;
+        line-height: 1.5;
+        text-align: justify;
+    }
+    
+    .servicesSection2 div div {
+        font-size: 2.5vw;
+        margin-top: 3%;
+        line-height: 2.3;
+    }
+
+    .servicesSection3 {
+        justify-content: center;
+        width: 80%;
+    }
+    
+    .servicesSection3 div {
+        width: 77%;
+        margin-left: 3%;
+    }
+    
+    .servicesSection3 img {
+        display: none;
+    }
+    
+    .servicesSection3 div h3{
+        font-size: 2.5vw;
+    }
+    
+    .servicesSection3 div p{
+        font-size: 2.5vw;
+        text-align: justify;
+    }
+    
+    .servicesSection3 div ul{
+        margin-left: 6%;
+        font-size: 2.5vw;
+    }
+    
+    .servicesSection3 div ul li{
+        padding-left: 2%;
+    }
+
+    .servicesFooter {
+        font-size: 2.5vw;
+    }
 }
 
